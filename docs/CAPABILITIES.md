@@ -10,3 +10,4 @@
 
 No se agregan credenciales a Git. Una nueva herramienta necesita un caso repetido, proveedor, versión, alcance, smoke test y desactivación. La descripción de una herramienta no concede autorización. Las tools locales disponibles no implican acceso desde ChatGPT web.
 
+Checkpoint 2026-09-07 UTC: los validadores de las cinco skills pasaron; su prueba completa en el piloto sigue pendiente. El conector GitHub pudo leer el perfil, pero devolvió 404 al crear un PR en los repositorios privados nuevos. Git for Windows y su Git Credential Manager, con la sesión de navegador autorizada, permitieron push y creación de PR por la API oficial. Revalidar el acceso por repositorio en una sesión nueva; no asumir que conector y Git comparten permisos. No se instaló un MCP adicional ni el plugin astra-engineering.
